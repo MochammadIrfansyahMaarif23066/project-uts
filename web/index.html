@@ -102,10 +102,13 @@ class="navbar-satu">2023B <span>KELOMPOK 7</span></a>
         <input type="text" id="fname" name="firstname" placeholder="Your First name..">
     
         <h3 for="lname">Last Name</h3>
-        <input type="text" id="Lname" name="lastname" placeholder="Your Last Name..">
+        <input type="text" id="lname" name="lastname" placeholder="Your Last Name..">
     
         <h3 for="subject">Subject</h3>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <input type="text" id="subject" name="subject" placeholder="Your Last Name..">
+            
+        <h3 for="body">Body</h3>
+        <textarea id="body" name="body" placeholder="Write something.." style="height:200px"></textarea>
     
         <input type="submit" value="Submit" onclick="sendemail()">
         </form>
@@ -120,7 +123,11 @@ class="navbar-satu">2023B <span>KELOMPOK 7</span></a>
     function sendemail() {
         var subject = document.getElementById('subject').value;
         var email = 'metaslide23@gmail.com'; /* isi email */
-        var mailtolink = 'mailto:' + email + '?subject=' + encodeURIComponent(subject);
+        var fname = document.GetElementById('fname').value;
+        var lname = document.GetElementById('lname').value;
+        var body = document.GetElementById('body').value;
+        var fbody = 'Nama: ' + fname '' + lname '%0D%0A' + body
+        var mailtolink = 'mailto:' + email + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(fbody);
 
         window.location.href = mailtolink;
     }
