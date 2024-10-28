@@ -14,3 +14,11 @@ pada halaman ini berisi:
 </ol>
 
 <h2>Desain CSS</h2>
+<ol>
+<li>Warna: terdapat 3 warna utama yaitu biru, ungu dan putih,</li>
+<li>Font: menggunakan font poppins,</li>
+<li>Hover Effect: Merubah warna(#179BAE/#179BAE) saat kursor diarahkan ke objek diber effect</li>
+<li>Flex grid: menggunakan flex agar mudah diatur.
+<ol>
+
+<h2>Kreatifitas dan Desain</h2>
