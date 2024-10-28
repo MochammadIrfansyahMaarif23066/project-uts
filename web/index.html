@@ -116,10 +116,54 @@ class="navbar-satu">2023B <span>KELOMPOK 7</span></a>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-    AOS.init();
-    </script>
+    AOS.init(); <!-- Kontak kami -->
+<section id="support" class="support">
+    <h2><span>Bantuan</span> Pelanggan</h2>
+    <p>
+        jika ada kendala atau saran yang ingin disampaikan untuk website ini silahkan. 
+        <p>Terima Kasih</p>
+    </p>
+    <div class="container">
+        <form">
+        <h3 for="fname">First Name</h3>
+        <input type="text" id="fname" name="firstname" placeholder="Your First name..">
+    
+        <h3 for="lname">Last Name</h3>
+        <input type="text" id="Lname" name="lastname" placeholder="Your Last Name..">
+    
+        <h3 for="subject">Subject</h3>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit" onclick="sendemail()">
+        </form>
+    </div>
+</section>
 
+<!-- navbar akhir -->
+<footer>
+    <div class="links">
+        <a href="#">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#our_team">Team</a>
+        <a href="#support">Support</a>
+    </div>
+    
+    <div class="credit">
+        <a>Created by kelompok 7 2023B</a>
+    </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
+    AOS.init();
+    function sendemail() {
+        var subject = document.getElementById('subject').value;
+        var email = 'metaslide23@gmail.com'; /* isi email */
+        var mailtolink = 'mailto:' + email + '?subject=' + encodeURIComponent(subject);
+
+        window.location.href = mailtolink;
+    }
+    </script>
     function sendemail() {
         var subject = document.getElementById('subject').value;
         var email = 'metaslide23@gmail.com'; /* isi email */
