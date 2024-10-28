@@ -1,5 +1,5 @@
 <h1>WEB TEAM PROFILE KELOMPOK 7</h1>
-Dibuatnya web ini ialah dengan tujuan membangun kepercayaan kelompok aatau organisasi yang akan saling bekerjasama.
+Dibuatnya web ini ialah dengan tujuan membangun kepercayaan kelompok atau organisasi yang akan saling bekerjasama.
 
 <h2>Struktur HTML</h2>
 ++index.html++
@@ -33,4 +33,5 @@ Desain website ini menggunakan konsep simple dan modern dengan memfokuskan pada 
 
 <h2>Akses Website</h2>
 Pengunjung bisa mengakses webnya dengan mengklik tautan berikut
+<br>
 <a href="https://mochammadirfansyahmaarif23066.github.io/project-uts/web/">https://mochammadirfansyahmaarif23066.github.io/project-uts/web/</a>
