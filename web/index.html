@@ -3,44 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Team Profile</title>
+    <title>Web Team Profile</title> <!-- Tema Project --> 
 
-    <!-- fonts --> 
+    <!-- Import fonts Poppins dari google fonts --> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     
-    <!-- AOS -->
+    <!-- Import library AOS (Animated On Scroll) untuk memberikan animasi efek scroll -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link rel="stylesheet" href="styles.css">
 </head>
 <body> 
     
-    <!-- navbar -->
-<nav class="navbar">
-<a href="#" 
-class="navbar-satu">2023B <span>KELOMPOK 7</span></a>
+    <!-- navbar Awal -->
+    <!-- Tag <a> untuk mendefinisikan hyperlink, yang digunakan untuk menghubungkan dari satu halaman ke halaman lainnya. 
+    syaratnya dalam tag <a> harus memiliki href atribut jika tidak maka akan menjadi penampung saja-->
 
-<div class="navbar-nav">
-    <a href="#">Home</a>
+        <nav class="navbar"> <!--Membuat sebuah class navbar-->
+<a href="#" 
+class="navbar-satu">2023B <span>KELOMPOK 7</span></a> 
+
+<div class="navbar-nav"> 
+    <a href="#">Home</a> 
     <a href="#about">Tentang Kami</a>
     <a href="#our_team">Team</a>
     <a href="#support">Support</a>
 </div>
 
 </nav>
-    <!-- navbar akhir -->
     
     <!-- home -->
-<section class="hero" id="home">
-    <main class="content">
-        <h1>Anggota</h1>
-            <h1><span> Kelompok 7</span></h1>
+<section class="hero" id="home"> <!--membuat Tag <section> untuk mendefinisikan bagian dalam suatu dokumen html-->
+    <main class="content"> <!--Membuat sebuah class navbar-->
+        <h1>Anggota</h1> 
+            <h1><span> Kelompok 7</span></h1> 
     <ol>
-        <li>Mochammad Irfansyah Ma'arif / 23091397066</li>
         <li>Rafi Dwi Saputra / 23091397058</li>
         <li>Yusuf Affandi / 23091397045</li>
+        <li>Mochammad Irfansyah Ma'arif / 23091397066</li>
     </ol>
     </main>
 </section>
@@ -49,14 +51,16 @@ class="navbar-satu">2023B <span>KELOMPOK 7</span></a>
 <section id="about" class="about">
     <h2><span>Tentang</span> Kami</h2>
 
-    <div class="row">
-        <div class="about-img">
-            <img src="gambartim.jpg" alt="Tentang Kami">
+    <div class="row"> <!--Membuat sebuah class row-->
+        <div class="about-img" data-aos="zoom-out" data-aos-duration="500" data-aos-delay="90"> <!--Membuat sebuah class navbar-->
+            <img src="gambartim.jpg" alt="Tentang Kami"> <!--Membuat sebuah class navbar-->
         </div>
+
         <div class="content">
             <h3>Siapa Kami ?</h3>
             <p>
-                Kami adalah tim yang berdedikasi dalam menciptakan kolaborasi internal yang kuat dan efektif. Melalui kerja sama yang solid, kami tidak hanya meningkatkan sinergi antar anggota, tetapi juga membangun personal branding yang profesional dan terpercaya. Dengan visi untuk terus tumbuh dan berkembang, kami berkomitmen untuk memberikan kontribusi terbaik demi meningkatkan kepercayaan dan mencapai kesuksesan bersama.
+                Kami adalah tim yang berdedikasi dalam menciptakan kolaborasi internal yang kuat dan efektif. Melalui kerja sama yang solid, kami tidak hanya meningkatkan sinergi antar anggota, tetapi juga membangun personal branding yang profesional dan terpercaya. 
+                <p>Dengan visi untuk terus tumbuh dan berkembang, kami berkomitmen untuk memberikan kontribusi terbaik demi meningkatkan kepercayaan dan mencapai kesuksesan bersama.</p>
             </p>
         </div>
     </div>
@@ -71,17 +75,17 @@ class="navbar-satu">2023B <span>KELOMPOK 7</span></a>
     </p>
 
     <div class="row">
-        <div class="team-card">
+        <div class="team-card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="100"> <!--Membuat sebuah class navbar-->
             <img src="yusufcr.jpg" alt="yusuf" class="team-card-img">
             <h3 class="team-card-title"> Yusuf </h3>
             <p class="team-card-nim">23091397045</p>
         </div>
-        <div class="team-card">
+        <div class="team-card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="200">
             <img src="irfan3.jpg" alt="irfan" class="team-card-img">
             <h3 class="team-card-title"> Irfan </h3>
             <p class="team-card-nim">23091397066</p>
         </div>
-        <div class="team-card">
+        <div class="team-card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300">
             <img src="rapi2.jpg" alt="rapi" class="team-card-img">
             <h3 class="team-card-title"> Rafi </h3>
             <p class="team-card-nim">23091397058</p>
@@ -89,34 +93,9 @@ class="navbar-satu">2023B <span>KELOMPOK 7</span></a>
     </div>
 </section>
 
-<!-- Kontak kami -->
-<section id="support" class="support">
-    <h2><span>Bantuan</span> Pelanggan</h2>
-    <p>
-        jika ada kendala atau saran yang ingin disampaikan untuk website ini silahkan. 
-        <p>Terima Kasih</p>
-    </p>
-    <div class="container">
-        <form">
-        <h3 for="fname">First Name</h3>
-        <input type="text" id="fname" name="firstname" placeholder="Your First name..">
-    
-        <h3 for="lname">Last Name</h3>
-        <input type="text" id="lname" name="lastname" placeholder="Your Last Name..">
-    
-        <h3 for="subject">Subject</h3>
-        <input type="text" id="subject" name="subject" placeholder="Your Last Name..">
-            
-        <h3 for="body">Body</h3>
-        <textarea id="body" name="body" placeholder="Write something.." style="height:200px"></textarea>
-    
-        <input type="submit" value="Submit" onclick="sendemail()">
-        </form>
-    </div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-    AOS.init(); <!-- Kontak kami -->
+
+<!-- Kontak kami -->
 <section id="support" class="support">
     <h2><span>Bantuan</span> Pelanggan</h2>
     <p>
@@ -156,6 +135,9 @@ class="navbar-satu">2023B <span>KELOMPOK 7</span></a>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
     AOS.init();
+    </script>
+
+    <script>
     function sendemail() {
         var subject = document.getElementById('subject').value;
         var email = 'metaslide23@gmail.com'; /* isi email */
@@ -164,5 +146,7 @@ class="navbar-satu">2023B <span>KELOMPOK 7</span></a>
         window.location.href = mailtolink;
     }
     </script>
+
+
 </body>
 </html>
