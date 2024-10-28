@@ -185,3 +185,132 @@ body {
     color: #1a85c2;
     font-weight: 500;
 }
+
+/* our team */
+.our_team h2 {
+    margin-bottom: 1rem; /*16 px*/
+}
+.our_team p {
+    text-align: center;
+    max-width: 30rem; /*480 px*/
+    margin: auto;
+    font-size: 1.1rem; /*17.6 px*/
+    color: #1a85c2;
+
+}
+.our_team .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem; /*64 px*/
+    justify-content: center;
+    color: #7A1CAC;
+}
+
+.team-card{
+    text-align: center;
+}
+
+.team-card img{
+    border-radius: 1.5rem; /*24 px*/
+    padding: 0.9rem; /*14.4 px*/
+    height: 150px;
+    width: 150px;
+}
+.team-card h3{
+    margin: 1rem auto 0.5rem; /*8 px*/
+}
+
+.team-card p{
+    font-weight: 500 ;
+}
+/* contact */
+.support h2{
+    margin-top: 0.5rem; /*8 px*/
+    margin-bottom: 1rem; /*16 px*/
+}
+
+
+.support p {
+    text-align: center;
+    max-width: 30rem; /*480 px*/
+    margin: auto;
+    font-size: 1rem; /*16 px*/
+    color: #1a85c2;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 0.75rem;  /*12 px*/
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+
+input[type=submit] {
+    background-color: #04AA6D;
+    font-size: 1rem; /*16 px*/
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #0D7C66;
+}
+
+
+.container {
+    border-radius: 5px;
+    margin-top: 2rem; /*32 px*/
+    height: 100% ;
+    width: 100%;
+    background: linear-gradient(65deg,#D2DAFF,#AAC4FF,#8576FF);
+    padding: 2.5rem; /*40 px*/
+}
+.container h3{
+    font-weight: 480;
+    font-size: 1rem; /*16 px*/
+    color: #1E201E;
+}
+
+/* Footer */
+Footer{
+    background-color: #c3e5ff;
+    text-align: center;
+    padding-top: 1rem; /*16 px*/
+    padding-bottom: 2rem; /*32 px*/
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 3rem; /*48 px*/
+}
+
+Footer .links a:hover{
+    color: #179BAE;
+}
+Footer .links{
+    margin-bottom: 1rem; /*16 px*/
+}
+Footer .links a{
+    color: #1D24CA;
+    padding-top: 0.5rem; /*8 px*/
+    padding-bottom: 0.5rem; /*8 px*/
+    padding-left: 1rem; /*16 px*/
+    padding-right: 1rem; /*16 px*/
+    font-weight: 500;
+}
+
+Footer .credit {
+    font-size: 0.9rem; /*14.4 px*/
+}
+Footer .credit a{
+    color: #7A1CAC;
+    font-weight: 500;
+
+}
