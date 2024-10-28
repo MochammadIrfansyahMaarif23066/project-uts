@@ -31,6 +31,37 @@ pada halaman ini berisi:
 Desain website ini menggunakan konsep simple dan modern dengan memfokuskan pada kemuduuhan pengguna dalam membaca setiap informasi di website ini.
 * Smooth scrool: pada saat ingin pindah halaman lewat navbar/footer scrool menjadi lebih halus/tidal kaku
 
+<h2>System Requirement Specification(SRS)</h2>
+<ol>
+  <li>
+    Tujuan :Meningkatkan kolaborasi dan komunikasi internal agar anggota tim dapat lebih kompak.
+  </li>
+  <li>
+    Fungsi: Website ini memiliki beberapa fungsi utama, yaitu menampilkan profil tim secara lengkap, termasuk nama dan NIM setiap anggota. Navigasi halaman yang tersedia membantu pengguna untuk dengan mudah berpindah antar bagian, seperti Home, Tentang Kami, Team, dan Support. Selain itu, terdapat formulir kontak yang memungkinkan pengunjung mengirimkan masukan atau pertanyaan langsung ke alamat email tim melalui formulir yang tersedia, menciptakan kesan interaktif dan visual yang menarik.
+  </li>
+  <li>
+    Spesifikasi pengguna:
+    <ul> 
+      <li>
+          Dapat melihat profil tim, mengenal anggota tim, dan mengirimkan masukan atau saran melalui formulir kontak.
+      </li>
+      <li>
+          Mudah digunakan dan mudah dibaca 
+      </li>
+    </ul>
+    <li>Batasan:</li>
+     <ul>
+       <li>
+         web ini reesponsif jika hanya dibuka di desktop
+       </li>
+       <li>
+         web ini hanya berisi deskripsi tim tanpa ada hal lain
+       </li>
+     </ul>
+  </li>
+</ol>
+
+
 <h2>Akses Website</h2>
 Pengunjung bisa mengakses webnya dengan mengklik tautan berikut
 <br>
