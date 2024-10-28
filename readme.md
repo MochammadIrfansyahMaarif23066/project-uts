@@ -18,7 +18,19 @@ pada halaman ini berisi:
 <li>Warna: terdapat 3 warna utama yaitu biru, ungu dan putih,</li>
 <li>Font: menggunakan font poppins,</li>
 <li>Hover Effect: Merubah warna(#179BAE/#179BAE) saat kursor diarahkan ke objek diber effect</li>
-<li>Flex grid: menggunakan flex agar mudah diatur.
+<li>Flex grid: menggunakan flex agar mudah diatur.</li>
+</ol>
+
+<h2>Fungsionalitas JavaScript</h2>
 <ol>
+<li>Memunculkan animasi zoom in pada objek tertentu saat melewati halamanya</li>
+<li>Menambahkan fitur mengirim email: user mengisi formulir dan saat submit isi formulir akan ikut mengisi email</li>
+</ol>
 
 <h2>Kreatifitas dan Desain</h2>
+Desain website ini menggunakan konsep simple dan modern dengan memfokuskan pada kemuduuhan pengguna dalam membaca setiap informasi di website ini.
+* Smooth scrool: pada saat ingin pindah halaman lewat navbar/footer scrool menjadi lebih halus/tidal kaku
+
+<h2>Akses Website</h2>
+Pengunjung bisa mengakses webnya dengan mengklik tautan berikut
+<a href="https://mochammadirfansyahmaarif23066.github.io/project-uts/web/">https://mochammadirfansyahmaarif23066.github.io/project-uts/web/</a>
