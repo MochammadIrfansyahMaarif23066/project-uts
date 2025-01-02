@@ -146,7 +146,7 @@ class="navbar-satu">2023B <span>KELOMPOK 7</span></a>
 
         var fullName = firstName + " " + lastName;
         
-        var mailtolink = 'mailto:' + email + '?subject=' + encodeURIComponent(body);
+        var mailtolink = 'mailto:' + email + '?subject=' + encodeURIComponent(fullName) + '&body=' + encodeURIComponent(body);
 
         window.location.href = mailtolink;
     }
