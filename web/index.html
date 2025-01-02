@@ -110,8 +110,8 @@ class="navbar-satu">2023B <span>KELOMPOK 7</span></a>
         <h3 for="lname">Last Name</h3>
         <input type="text" id="Lname" name="lastname" placeholder="Your Last Name..">
     
-        <h3 for="subject">Subject</h3>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <h3 for="body">Body</h3>
+        <textarea id="body" name="body" placeholder="Write something.." style="height:200px"></textarea>
     
         <input type="submit" value="Submit" onclick="sendemail()">
         </form>
@@ -139,9 +139,14 @@ class="navbar-satu">2023B <span>KELOMPOK 7</span></a>
 
     <script>
     function sendemail() {
-        var subject = document.getElementById('subject').value;
+        var firstName = document.getElementById('fname').value;
+        var lastName = document.getElementById('Lname').value;
+        var body = document.getElementById('body').value;
         var email = 'metaslide23@gmail.com'; /* isi email */
-        var mailtolink = 'mailto:' + email + '?subject=' + encodeURIComponent(subject);
+
+        var fullName = firstName + " " + lastName;
+        
+        var mailtolink = 'mailto:' + email + '?subject=' + encodeURIComponent(body);
 
         window.location.href = mailtolink;
     }
